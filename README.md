@@ -5,7 +5,7 @@ Setting up Windows with Tao's preferred environment.
 ## Pre-requisits
 
 The following steps must be done manually before running the set-up scripts:
-* Install Windows 10, obviously
+* Install Windows 11, obviously
 * Optionally, install Windows Terminal: https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
 * Install Chocolatey: https://chocolatey.org/install
 * Install git: choco install git
@@ -19,6 +19,7 @@ Set-ExecutionPolicy RemoteSigned
 
 Now run the following scripts:
 1. step1-shell.ps1 sets up essentials
+2. step2-dev.ps1 (optionally, set up dev environments)
 
 ## Set up Windows Terminal
 Follow these instructions:
